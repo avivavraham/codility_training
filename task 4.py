@@ -1,5 +1,5 @@
 import math
-def solution(X, Y, D):
+def solution4(X, Y, D):
     i = 0
     j = 0
     while(X + D * pow(2,i) <= Y): #binary search for jump
@@ -17,4 +17,3 @@ def solution(X, Y, D):
         j += 1
     return j
 
-print(solution(257546415, 2587564627, 999))
