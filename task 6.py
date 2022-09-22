@@ -1,4 +1,4 @@
-def solution(A):
+def solution(A):  # O(N)
     sum = 0
     for item in A:
         sum += item
