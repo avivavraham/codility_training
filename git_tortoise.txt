@@ -1,1 +1,1 @@
-"simple message"
+"simple message to commit"
